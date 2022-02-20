@@ -185,7 +185,7 @@ def main(genomes, config):
     nets = []
     ge = []
     birds = []
-    alive = 50
+    alive = 20
 
     for _, g in genomes:
         g.fitness = 0
